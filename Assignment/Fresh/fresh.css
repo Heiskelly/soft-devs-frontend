@@ -1,0 +1,167 @@
+*{
+  /* margin: 0; */
+  /* padding: 10px; */
+}
+
+body{
+  background-color: beige;
+}
+
+nav{
+  margin: 20px;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  /* background-color: white; */
+  /* padding-top: 0%; */
+   /* padding-bottom: 0%; */
+   padding: 50px;
+}
+
+header{
+    display: flex;
+    justify-content:space-between;
+    padding: 1px;
+}
+
+text{
+  display: flex;
+  justify-content: space-between;
+    
+}
+
+ul{
+  display: flex;
+  gap: 50px;
+  list-style: none;
+  text-size-adjust: 20px;
+}
+
+.me{
+  color: green;
+  cursor: pointer;
+}
+.you{
+  color: darkgrey;
+  display: flex;
+  gap: 50px;
+  cursor: pointer;
+}
+
+strong{
+   color:orange;
+}
+
+.master{
+  color:darkgreen;
+  font-size:30px;
+    /* line-height:40px; */
+    margin-top: 100px;
+    /* padding:150px; */
+    margin-left: 55px;
+}
+
+.textp{
+  color: gray;
+  margin-left: 58px;
+  
+
+}
+
+.image3{
+               
+
+}
+
+.image1{
+    margin:0;
+    /* width:auto; */
+    /* justify-content: center; */
+    float: right;
+    /* size-adjust:5px; */
+    /* padding-right:30px; */
+    /* margin-top:0; */
+    
+}
+
+article{
+  padding-bottom:300px;
+}
+
+.section1{
+  background-color: white;
+  padding-bottom: 500px;
+  display: flex;
+  /* justify-content: center; */
+  list-style: none;
+  padding: 100px;
+  gap: 30px;
+}
+
+.part{
+   /* width: 100%; */
+   /* align-items: center; */
+   /* justify-content: space-between; */
+   background-color:rgb(217, 168, 168);
+   margin-top:0;
+   padding-bottom: 40px;
+   /* justify-content: space-around; */                                                                                                                                     
+   
+}
+
+.part h2{
+  color: brown;
+  margin-top: 100px;
+  padding: 20px;
+}
+
+.part p{
+  color:red;
+  padding: 20px;
+}
+
+.vege{
+  background-color: rgb(217, 168, 168);
+  margin-top:0;
+}
+
+.nav-item{
+  padding: 20px;
+  color: green;
+}
+
+.dasher{
+  align-items: center;
+  /* margin-right: 30px; */
+  background-color:burlywood;
+  margin-top:0;
+  padding-bottom: 40px;
+  /* gap: 30px; */
+
+}
+
+.dasher h2{
+  color: cadetblue;
+  margin-top: 100px;
+  padding: 20px;
+  /* gap: 30px; */
+}
+.dasher p{
+  color:darkred;
+  padding: 20px;
+}
+
+.vege2{
+  background-color: burlywood;
+  margin-top: 0;
+  /* margin-right: 30px; */
+}
+
+.mpart1{
+  display: flex;
+}
+
+.mpart2{
+  display: flex;
+}
+
