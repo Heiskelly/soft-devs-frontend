@@ -74,10 +74,10 @@ strong{
 }
 
 .image1{
-    margin:0;
+    /* margin:0; */
     /* width:auto; */
     /* justify-content: center; */
-    float: right;
+    /* float: right; */
     /* size-adjust:5px; */
     /* padding-right:30px; */
     /* margin-top:0; */
@@ -85,6 +85,8 @@ strong{
 }
 
 article{
+  display: flex;
+  justify-content: space-between;
   padding-bottom:300px;
 }
 
