@@ -61,9 +61,9 @@ strong{
     margin-left: 55px;
 }
 
-.textp{
+.master p{
   color: gray;
-  margin-left: 58px;
+  /* margin-left: 58px; */
   
 
 }
@@ -87,7 +87,7 @@ strong{
 article{
   display: flex;
   justify-content: space-between;
-  padding-bottom:300px;
+  padding-bottom:120px;
 }
 
 .section1{
