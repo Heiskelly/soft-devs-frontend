@@ -1,0 +1,36 @@
+*{
+    margin: 30px;
+}
+
+body{
+  background-image: url(../Green\ background.png);
+}
+
+section{
+  height: m,;
+}
+
+
+.header{
+   margin-bottom: 50px;
+   text-align: center;
+   color:green;
+   font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+   
+
+.board1{
+    display: flex;
+    justify-content: space-around;
+    color:green;
+    background-color: #fff;
+
+}
+.board1 h3{
+  margin-top: 100px;
+}
+.board1 h4{
+  margin-top: 100px;
+}
