@@ -10,25 +10,30 @@ section{
     text-align: center;
     background-color: green;
     color: #fff;
-    border-radius: 250px;
+    /* border-radius: 250px; */
+    margin: 100px;
 }
 
 .header{
-  text-align: center;
-  margin-bottom: 200px;
+  /* text-align: center; */
+  margin-bottom: 20px;
   padding-top: 50px;
+  display: flex;
+     /* align-items: center; */
+     justify-content: center;
+     font-size: larger;
 }
 
 .text1{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 
 .text2{
     display: flex;
-    justify-content: space-around;
-    padding-left: 150px;
+    justify-content: space-between;
+    /* padding-left: 150px; */
     
 }
 .text2 h3{

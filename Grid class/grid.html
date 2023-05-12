@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRID CLASS</title>
+
+    <style>
+        body{
+            width: 90%;
+            max-width: 900px;
+            margin: 2em auto;
+            font: .9em/1.2 Arial, Helvetica, sans-serif;
+        }
+
+        /* selects all divs that are directs children of the container class */
+        .container > div{
+            border-radius: 5px;
+            padding: 10px;
+            background-color: aquamarine;
+            border: 2px solid burlywood;
+        }
+
+        .container{
+            display: grid;
+            grid-template-columns: 1fr 5fr 1fr;
+        }
+    </style>
+</head>
+<body>
+    <h1> Simple grid examples </h1>
+
+    <div class="container">
+        <div>ONE</div>
+        <div>TWO</div>
+        <div>THREE</div>
+        <div>FOUR</div>
+        <div>FIVE</div>
+        <div>SIX</div>
+        <div>SEVEN</div>
+    </div>
+</body>
+</html>

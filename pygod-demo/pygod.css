@@ -1,0 +1,49 @@
+*{
+
+}
+
+body{
+  margin: 25px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bts button{
+  width: 70px;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.work{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+section{
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 4fr 0.6fr 1fr;
+    
+}
+
+.network h2{
+      font-size: 55px;
+}
+.network button{
+    width: 150px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+

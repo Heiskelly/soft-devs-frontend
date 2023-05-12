@@ -60,7 +60,6 @@ button.login{
     background-color:transparent;
     font-size: 18px;
     border-radius:5px;
-    /* /* margin-right: 10px; */
 } 
 
 
@@ -102,23 +101,6 @@ button.login{
     
 }
 
-/* .nav{
-    display: flex;
-    flex:100px;
-    justify-content: space-between;
-} */
-
-/* .mysection{
-    background-color: beige;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    margin-top: 30px;
-    display: flex;
-    gap: 40px;
-    justify-content: space-around;
-    align-items: center;
-} */
-
 .image2{
     width: auto;
     justify-content: center;
@@ -142,11 +124,8 @@ a {
     
     width: 100%;
     display: flex;
-    /* color: rgb(0, 97, 86); */
     align-items: center;
     justify-content: space-between;
-     /* min-height: 500px; */
-     /* margin-top: 50px; */
 }
 
 
@@ -167,31 +146,15 @@ a {
 font-size: 40px;
 margin-bottom: 20px;
 text-align:left;
-/* line-height: 50px; */
 }
 
 .welcome2 p{
     text-align: left;
     width: 50%;
     font-size:15px;
-    /* line-height: 18px; */
     margin-bottom: 20px;
 }
 
-
-    /* color:white;
-    font-size: 25px;
-    padding:25px;
-    text-align:justify;
-    line-height: 50px;
-    margin-top: 100px;
-} */
-
-/* .crl{
-    font-weight: bold;
-    color: white;
-    
-} */
 
 article{
     background-color:#006156;
@@ -246,7 +209,6 @@ article{
 .riding1 h1{
     margin-top:1000px;
     font-size: 40px;
-    /* margin-bottom: 15px; */
 }
 
 .riding1 h2{
@@ -260,38 +222,6 @@ article{
     margin-bottom: 25px;
     font-size: 20px;
 }
-
-/* .Area{ */
-    /* display: flex;
-    justify-content: center;
-    margin-top: 20px;
-    margin-left: 50px;
-} */
-
-
-
-/* .Area1{
-   background-color: white;
-   height: 80vh;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   text-align: center;
-
-    
-}
-
-.Area{
-    justify-content: center;
-    align-items: center;
-    height: 70vh;
-    width: 70%;
-    background-color: rgb(245, 245, 220);
-    border-radius: 50px;
-    box-shadow: rgba(98, 216, 204, 0.7);
-} */
-
-
 
 input{
     width: 400px;

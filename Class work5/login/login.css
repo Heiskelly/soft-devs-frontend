@@ -52,7 +52,7 @@ h2{
     position:absolute;
     top: 50%;
     left: 5px;
-    transform: translateY(-50%);
+    transform: translateY(-100%);
     font-size: 16px;
     color: #fff;
     pointer-events: none;

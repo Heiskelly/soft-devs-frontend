@@ -6,10 +6,10 @@ body{
   background-image: url(./Green\ background.png);
 }
 
-section{
-  height: m,;
+.mainone{
+  background-color: aliceblue;
+  padding: 30px;
 }
-
 
 .header{
    margin-bottom: 50px;
@@ -24,8 +24,9 @@ section{
 .board1{
     display: flex;
     justify-content: space-around;
-    color:green;
-    background-color: #fff;
+    color:white;
+    background-color:green;
+    border-radius: 30px;
 
 }
 .board1 h3{
