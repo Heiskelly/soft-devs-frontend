@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRID TEMPLATE</title>
+    <style>
+body{
+            width: 90%;
+            max-width: 900px;
+            margin: 2rem auto;
+            font: 0.9/1.2 Arial, helvetica, sans-serif;
+        }
+        .container{
+            display: grid;
+            grid-template-columns: 1fr 3fr;
+            gap: 20px;
+        }
+        header{
+                 border-radius: 5px;
+                 padding: 50px;
+                 background-color: purple;
+                 border: 2px solid purple;
+                 color: white;
+                 font-size: 2rem;
+        }
+        footer{
+            border-radius: 5px;
+                 padding: 15px;
+                 background-color: rgb(114, 114, 223);
+                 border: 2px solid rgb(114, 114, 223);
+                 color: white;
+        }
+        aside{
+            background-color: rgb(109, 109, 176);
+            text-align: center;
+            width: 13rem;
+            padding: 10px;
+            color: white;
+        }
+        .one{
+            background-color: rgb(109, 109, 176);
+            list-style: none;
+            padding: 10px;
+            margin-bottom: 5px;
+            width: 150px;
+            color: white;
+        }
+        article{
+            margin-top: 20px;
+        }
+        header{
+            grid-column: 1/5;
+            grid-row: 1;
+        }
+        article{
+            grid-column: 2;
+            grid-row: 2;         ;
+        }
+        aside{
+            grid-column: 3;
+            grid-row: 2;
+        }
+        ul{
+            grid-column: 1;
+            grid-row: 2;
+        }
+        footer{
+            grid-column: 1/5;
+            grid-row: 3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>Chania</header>
+
+    <article>
+        <h1>The City</h1>
+        <p>Chania is the captital of the chania region on the island of crete.
+        The city can be divided in two parts, the old town and mordern city</p>
+    </article>
+
+    <ul>
+        <div class="one">
+        <li>The Flight</li>
+        </div>
+        <div class="one">
+        <li>The City</li>
+        </div>
+        <div class="one">
+        <li>The Island</li>
+        </div>
+        <div class="one">
+        <li>The Food</li>
+        </div>
+    </ul>
+
+     <aside>
+        <div>
+        <h2>What?</h2>
+        <p>Chania is a city on the island <br> of crete.</p>
+        </div>
+
+        <div>
+          <h2>Where?</h2>
+          <p>Crete is a Greek island in the <br> Mediterranean sea.</p>
+        </div>
+
+        <div>
+            <h2>How?</h2>
+            <p>You can reach Chania airport <br> from all over Europe </p>
+        </div>
+     </aside>
+
+    <footer>
+        <p>Resize the browser window to see how the content respond to the resizing</p>
+    </footer>
+    </div>
+</body>
+</html>

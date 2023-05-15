@@ -108,6 +108,18 @@ button.login{
     size-adjust:auto;
     padding-right: 100px;
     margin-top: 100px;
+    animation: rotate 3s infinite linear;
+}
+
+@keyframes rotate{
+    0%{
+        background-position: 0px 0px;
+        transform: rotate(0deg)scale(1);
+    }
+    100%{
+        background-position: 1200px 0px;
+        transform: rotate(350deg)scale(1);
+    }
 }
 
 .section2{
