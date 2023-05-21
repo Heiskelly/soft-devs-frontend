@@ -118,7 +118,7 @@ button.login{
     }
     100%{
         background-position: 1200px 0px;
-        transform: rotate(350deg)scale(1);
+        transform: rotate(360deg)scale(1);
     }
 }
 

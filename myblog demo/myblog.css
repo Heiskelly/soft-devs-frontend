@@ -15,19 +15,28 @@ nav{
     gap: 50px;
     font-size: large;
     font-style: initial;
+    cursor: pointer;
     
+}
+
+.font{
+    cursor: pointer;
+}
+.font :hover{
+    background-color: rgb(242, 129, 129);
+    border-radius: 10px;
 }
 .homeb li{
     
     padding: 20px;
 }
 .homeb :hover{
-    background-color: green;
+    background-color:aqua;
     border-radius: 20px;
 }
     
-section{
-    background-image: url(./pyblog\ pics4.png);
+.section1{
+    background-image: url(./what.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -48,13 +57,17 @@ section{
 .work h4{
     color: white;
 }
+.work p{
+    color: white;
+    margin-top: -40px;
+}
 .work button{
     width: 150px;
     padding: 15px;
     border-radius: 20px;
     cursor: pointer;
     border: 3px solid transparent;
-    background-color: black;
+    background-color: black; 
     color: white;
     font-size: large;
 }
@@ -70,18 +83,18 @@ article{
     gap: 70px;
     padding: 80px;
     text-align: center;
-    background-image: url(./ink\ bac.png);
-    background-size: cover;
-    background-position: center;
+    background-image: url(./mainone.png);
+    background-size: contain;
+    background-position: right;
     background-repeat: no-repeat;
     padding-top: 130px ;
     overflow: scroll;
 }
 
 .main{
-    background-color: aliceblue;
+    background-color: transparent;
     transform: translate(x);
-    box-shadow:0 15px 20px red;
+    box-shadow:0 15px 20px aquamarine;
     height: 500px;
 }
 
@@ -91,4 +104,405 @@ article{
     border-radius: 20px;
     background-color: rgb(165, 165, 245);
     cursor: pointer;
+}
+
+.slide{
+    display: grid;
+    grid-template-columns: 1fr 3fr ;
+    gap: 10px;
+    margin-top: 150px;
+    padding-left: 100px;
+}
+aside{
+    padding-left:75px;
+    grid-column: 2;
+    grid-row: 1;
+    
+}
+.forreal{
+    grid-column: 1;
+    grid-row: 3; 
+}
+.popular{
+    grid-column: 2;
+    grid-row: 3;
+    margin: -60px auto;
+    
+}
+
+.whole{
+    grid-column: 1;
+    grid-row: 2;
+    margin: -50px auto;
+    
+}
+
+.whole button{
+  background:linear-gradient(120deg, rgb(157, 157, 227) 0%, #8fd3f4 100%);
+  padding: 15px;
+  border-radius: 30px;
+  border:none;
+  display: flex;
+  gap: 20px;
+}
+
+aside h1{
+    font-size:25px;
+}
+
+aside button{
+    background:linear-gradient(120deg, rgb(157, 157, 227) 0%, #8fd3f4 100%);
+    padding: 10px;
+    width: 300px;
+    border-radius: 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.forreal h1{
+    color: rgb(98, 98, 138);
+}
+.forreal p{
+    color: grey;
+    font-size: large;
+}
+.forreal button{
+    background-color:rgb(157, 157, 227);
+    padding: 15px;
+    width: 170px;
+    font-size: larger;
+    border: none;
+    cursor: pointer;
+}
+
+.road h1{
+    font-size: 20px;
+    font-style: oblique;
+    margin-bottom: 90px;
+}
+.www{
+    display: flex;
+    gap: 10px;
+}
+.way h1{
+    font-size:25px;
+}
+
+.skate{
+    display: grid;
+    grid-template-columns: 1fr 3fr ;
+    gap: 10px;
+    margin-top: 25px;
+    padding-left: 100px;
+}
+
+.native{
+    grid-column: 1;
+    grid-row: 3; 
+}
+.trees{
+    grid-column: 2;
+    grid-row: 1;
+    margin-left: 70px;
+    
+}
+
+.okay{
+    grid-column: 1;
+    grid-row: 2;    
+    margin: -30px auto;
+}
+    
+
+.okay button{
+  background:linear-gradient(120deg, rgb(157, 157, 227) 0%, #8fd3f4 100%);
+  padding: 15px;
+  border-radius: 30px;
+  border:none;
+  display: flex;
+  gap: 20px;
+}
+
+.native h1{
+    color: rgb(98, 98, 138);
+}
+.native p{
+    color: grey;
+    font-size: large;
+}
+.native button{
+    background-color:rgb(157, 157, 227);
+    padding: 15px;
+    width: 170px;
+    font-size: larger;
+    border: none;
+    cursor: pointer;
+}
+
+.woods h1{
+    font-size: 20px;
+    font-style: oblique;
+}
+
+.plane{
+    grid-column: 2;
+    grid-row: 2;
+    margin-left: 7px;
+    margin-top: 40px;
+}
+
+.flight{
+    grid-column: 2;
+    grid-row: 3;
+    margin: -20px auto;
+}
+
+.alter{
+    display: grid;
+    grid-template-columns: 1fr 3fr ;
+    gap: 10px;
+    margin-top: 50px;
+    padding-left: 100px;
+}
+
+.oflife{
+    grid-column: 1;
+    grid-row: 3; 
+}
+.words{
+    grid-column: 2;
+    grid-row: 1;
+    margin-left: 70px;
+}
+
+.vivid{
+    grid-column: 1;
+    grid-row: 2;
+    margin-left: 250px;
+    margin: -50px auto;  
+}
+
+.vivid button{
+  background:linear-gradient(120deg, rgb(157, 157, 227) 0%, #8fd3f4 100%);
+  padding: 15px;
+  border-radius: 30px;
+  border:none;
+  display: flex;
+  gap: 20px;
+}
+
+.oflife h1{
+    color: rgb(98, 98, 138);
+}
+.oflife p{
+    color: grey;
+    font-size: large;
+}
+.oflife button{
+    background-color:rgb(157, 157, 227);
+    padding: 15px;
+    width: 170px;
+    font-size: larger;
+    border: none;
+    cursor: pointer;
+}
+
+.woods h1{
+    font-size: 20px;
+    font-style: oblique;
+}
+
+.news{
+    grid-column: 2;
+    grid-row: 3;
+    margin: -30px 70px;
+}
+
+.news input{
+  width: 265px;
+  padding: 13px;
+  font-size: 15px;
+  
+}
+
+.news button{
+    width: 280px;
+    padding: 15px;
+    font-size: large;
+    margin-top: 15px;
+    background: linear-gradient(120deg, rgb(157, 157, 227) 0%, #8fd3f4 100%);
+    border: none;
+    cursor: pointer;
+}
+
+.fast{
+    display: grid;
+    grid-template-columns: 1fr 3fr ;
+    gap: 10px;
+    margin-top: 150px;
+    padding-left: 100px;
+}
+.outside{
+    padding-left:55px;
+    grid-column: 2;
+    grid-row: 1;
+    
+}
+.climate{
+    grid-column: 1;
+    grid-row: 3; 
+}
+
+.favo{
+    grid-column: 1;
+    grid-row: 2;
+    margin: -50px auto;
+    
+}
+
+.favo button{
+  background:linear-gradient(120deg, rgb(157, 157, 227) 0%, #8fd3f4 100%);
+  padding: 15px;
+  border-radius: 30px;
+  border:none;
+  display: flex;
+  gap: 20px;
+}
+
+.outside h1{
+    font-size:25px;
+}
+
+.outside button{
+    background:linear-gradient(120deg, rgb(157, 157, 227) 0%, #8fd3f4 100%);
+    padding: 10px;
+    width: 106px;
+    border-radius: 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.climate h1{
+    color: rgb(98, 98, 138);
+}
+.climate p{
+    color: grey;
+    font-size: large;
+}
+.climate button{
+    background-color:rgb(157, 157, 227);
+    padding: 15px;
+    width: 170px;
+    font-size: larger;
+    border: none;
+    margin-bottom: 60px;
+    cursor: pointer;
+}
+
+.first{
+    display: flex;
+    gap: 15px;
+    margin-left: 500px;
+    align-items: center;
+}
+.first h1{
+    background:darkslategrey;
+    padding: 15px;
+    width: 10px;
+    border-radius: 20px;
+    color: white;
+    font-size: 15px;
+    margin-bottom: 60px;
+    cursor: pointer;
+}
+.first img{
+    margin-top: -60px;
+    cursor: pointer;
+}
+.lastone{
+    background-color: rgba(0, 0, 0, 0.882);
+    padding-top:50px;
+}
+
+.about{
+    color: white;
+    font-size: large;
+}
+
+.llorem{
+    font-size:18px;
+}
+.llorem p{
+    color: gray;
+}
+.allguy{
+    display: grid;
+    margin-left: 100px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    /* margin-top: 0px;   */
+}
+
+.wait{
+     color: white;
+     font-size: large;
+     
+}
+.lletter p{
+    font-size: large;
+    color: gray;
+}
+.lletter input{
+    padding: 8px;
+}
+.lletter button{
+     background: linear-gradient(120deg, rgb(157, 157, 227) 0%, #8fd3f4 100%);
+     padding: 8px;
+     cursor: pointer;
+}
+
+.instta{
+    color: white;
+    font-size: large;
+}
+
+.allblogs{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    margin: 15px;
+    
+}
+
+.follow p{
+    font-size: large;
+    color: gray;
+}
+
+.welcome{
+    color: white;
+    font-size: large;
+}
+.welcome p{
+    font-size: large;
+}
+.logo{
+    display: flex;
+    gap: 15px;
+    cursor: pointer;
+}
+.logo :hover{
+    background-color: white;
+
+}
+.arrow1 :hover{
+    background-color: aqua;
+    cursor: pointer;
+}
+
+.lastt{
+    text-align: center;
+    background: rgba(0, 0, 0, 0.882);
+    padding-top: 100px;
+    padding-bottom: 40px;
+    color: white;
+    font-size: larger;
 }
