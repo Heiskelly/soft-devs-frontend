@@ -1,0 +1,431 @@
+* {
+  margin: 0;
+  padding: 0%;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 13vh;
+
+}
+
+.section1 {
+  background-image: linear-gradient(90deg, #f7f7f7 0% 7%, #f7f7f74d 70%, #f7f7f71a), url(./hotel\ pics3.jpg);
+  background-position: bottom;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+
+.bars {
+  display: flex;
+  gap: 50px;
+  list-style: none;
+  font-size: 14px;
+  cursor: pointer;
+
+}
+
+.head {
+  font-size: 12px;
+}
+
+.sign button {
+  color: rgb(251, 146, 58);
+  background: transparent;
+  border: solid 1px;
+  border-radius: 10px;
+  padding: 20px;
+  width: 130px;
+  cursor: pointer;
+
+}
+
+.top1 h2 {
+  font-size: 45px;
+}
+
+.ttop {
+  font-size: 15px;
+
+}
+
+.p1 p {
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+article {
+  margin-top: 110px;
+  padding-left: 130px;
+}
+
+.box {
+  padding-left: 120px;
+  margin-top: 150px;
+  display: flex;
+  gap: 3px;
+}
+
+.box ul {
+  background-color: rgb(251, 146, 58);
+  width: 25rem;
+  list-style: none;
+  display: flex;
+  gap: 5px;
+  justify-content: space-around;
+  padding: 25px;
+}
+
+.box button {
+  width: 10rem;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.section2 {
+  padding-top: 150px;
+  display: flex;
+  gap: 420px;
+  background-color: rgb(247, 247, 247);
+  padding-bottom: 100px;
+}
+
+.smallp {
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+
+.atty h2 {
+  font-size: 35px;
+  margin-bottom: 17px;
+}
+
+.bigp {
+  font-size: 15px;
+}
+
+.atty {
+  padding-left: 100px;
+}
+
+.atty button {
+  width: 150px;
+  padding: 20px;
+  background-color: rgb(251, 146, 58);
+  border: rgb(251, 146, 58);
+  border-radius: 5px;
+  color: white;
+  margin-top: 35px;
+  cursor: pointer;
+}
+
+.atty2 img {
+  margin-top: -60px;
+  object-fit: cover;
+  box-shadow: rgb(242, 242, 242) -53px 52px 0px 8px;
+}
+
+.section3 {
+  margin-top: 80px;
+  margin-bottom: 270px;
+}
+
+.flexall {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 100px;
+}
+
+.choose {
+  font-size: 35px;
+}
+
+.lorm {
+  font-size: 15px;
+}
+
+.allarr {}
+
+.arrow {
+  cursor: pointer;
+  /* background-color: rgb(30, 51, 68); */
+  width: 20px;
+  padding: 15px;
+  border-radius: 30px;
+}
+
+.secarrow {
+  background-color: rgb(30, 51, 68);
+  width: 20px;
+  padding: 15px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.omo {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  object-fit: cover;
+}
+
+.img4 {
+  background-color: rgb(30, 51, 68);
+  width: 370px;
+  height: 220px;
+  padding-top: 40px;
+  padding-left: 35px;
+  position: absolute;
+  margin-left: 550px;
+  margin-top: -230px;
+}
+
+.img4 h2 {
+  font-size: large;
+  color: #f7f7f7;
+}
+
+.img4 p {
+  font-size: 13px;
+  margin-top: 15px;
+  color: #f7f7f7;
+}
+
+.img4 button {
+  width: 100px;
+  padding: 10px;
+  background-color: rgb(251, 146, 58);
+  border: rgb(251, 146, 58);
+  color: #f7f7f7;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.section4 {
+  background-image: url(./hotel\ pics2.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 50vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 200px;
+}
+
+.absol {
+  background-color: rgb(30, 51, 68);
+  width: 450px;
+  height: 380px;
+  padding-top: 80px;
+  padding-left: 60px;
+  position: absolute;
+  margin-left: 850px;
+  margin-top: -37px;
+}
+
+.meme h2 {
+  font-size: larger;
+  color: rgb(251, 146, 58);
+}
+
+.meme p {
+  font-size: 13px;
+  color: #f7f7f7;
+  margin-top: 30px;
+}
+
+.another {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 15px;
+  color: #f7f7f7;
+  font-size: 13px;
+}
+
+.arrow1 {
+  background-color: rgb(251, 146, 58);
+}
+
+.section5 {
+  margin-bottom: 150px;
+}
+
+.seclast {
+  padding-left: 80px;
+}
+
+.seclast h2 {
+  font-size: 35px;
+}
+
+.seclast p {
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.omo2 {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.img2 {
+  margin-top: -50px;
+}
+
+.img3 {
+  color: #f7f7f7;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 17rem;
+}
+
+
+.end {
+  object-fit: cover;
+  grid-area: 1/1/-1/-1;
+}
+
+.img3 .btn1 {
+  grid-row: 2;
+  grid-column-start: 1;
+  font-size: 15px;
+  margin-left: 2rem;
+}
+
+.img3 .btn2 {
+  grid-row-start: 3;
+  grid-column-start: 1;
+  font-size: 13px;
+  margin-top: -20px;
+  margin-left: 2rem;
+}
+
+.img3 .btn3 {
+  grid-row: 2;
+  grid-column-start: 3;
+
+}
+
+.end1 {
+  object-fit: cover;
+  grid-area: 1/1/-1/-1;
+  margin-top: -3rem;
+}
+
+.img3 .btn11 {
+  grid-row: 2;
+  grid-column-start: 1;
+  font-size: 15px;
+  margin-left: 2rem;
+  margin-top: -50px;
+}
+
+.img3 .btn22 {
+  grid-row-start: 3;
+  grid-column-start: 1;
+  font-size: 13px;
+  margin-top: -20px;
+  margin-left: 2rem;
+  margin-top: -70px;
+}
+
+.img3 .btn33 {
+  /* grid-row: 2; */
+  grid-column-start: 3;
+}
+
+
+.img3 button {
+  width: 130px;
+  padding: 13px;
+  background-color: rgb(251, 146, 58);
+  border: rgb(251, 146, 58);
+  color: white;
+  cursor: pointer;
+}
+
+.img2 button {
+  width: 130px;
+  padding: 13px;
+  background-color: rgb(251, 146, 58);
+  border: rgb(251, 146, 58);
+  color: white;
+  cursor: pointer;
+}
+
+.section6 {
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.lastly h2 {
+  font-size: 35px;
+}
+
+.lastly p {
+  font-size: 15px;
+  margin-top: 15px;
+}
+
+.both {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.one {
+  background-color: #f7f7f7;
+  width: 700px;
+  height: 330px;
+  box-shadow: 0 4px 16px #11111a0d, 0 8px 32px #11111a0d;
+  justify-content: space-around;
+}
+
+.one img {
+  padding-top: 40px;
+  border-radius: 100%;
+}
+
+.one h2 {
+  margin-top: 15px;
+}
+
+.one p {
+  margin-top: 15px;
+}
+
+.section7 {
+  background-color: #1e3344;
+  ;
+  color: #f7f7f7;
+  padding-bottom: 60px;
+}
+
+.over {
+  padding-top: 50px;
+  display: flex;
+  list-style: none;
+  gap: 50px;
+  padding-left: 390px;
+  cursor: pointer;
+}
+
+span {
+  color: grey;
+}
+
+footer {
+  margin-top: 90px;
+  text-align: center;
+}

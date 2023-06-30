@@ -438,8 +438,8 @@ aside button{
 .allguy{
     display: grid;
     margin-left: 100px;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    /* margin-top: 0px;   */
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+    gap: 3rem;
 }
 
 .wait{
@@ -469,6 +469,7 @@ aside button{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
     margin: 15px;
+    gap: 2rem;
     
 }
 
@@ -493,6 +494,7 @@ aside button{
     background-color: white;
 
 }
+
 .arrow1 :hover{
     background-color: aqua;
     cursor: pointer;
