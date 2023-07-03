@@ -5,6 +5,7 @@
 
 body {
   font-family: sans-serif;
+  width: 100%;
 }
 
 header {
@@ -37,12 +38,12 @@ header {
   font-size: 12px;
 }
 
-.sign button {
+.sign {
   color: rgb(251, 146, 58);
   background: transparent;
   border: solid 1px;
   border-radius: 10px;
-  padding: 20px;
+  height: 50px;
   width: 130px;
   cursor: pointer;
 
@@ -429,3 +430,133 @@ footer {
   margin-top: 90px;
   text-align: center;
 }
+
+/* Tablet and under */
+@media (max-width: 768px){
+   body{
+    /* box-sizing: border-box; */
+   }
+}
+
+  /* Mobile */
+  @media (max-width: 414px) {
+    /* section 1 */
+    header{
+      /* height: 110px; */
+      margin: 0 10px;
+    }
+
+    .head{
+      font-size:6px;
+      
+    }
+
+     .section1 nav ul{
+      display: none;
+    }
+
+    .section1{
+     text-align: center;
+     height: 60vh;
+    }
+ 
+    article{
+      height: 30vh;
+    }
+
+      .top1 h2{
+      font-size: 35px;
+    }
+    
+    .p1 p{
+      font-size: 13px;
+      text-align: left;
+    }
+
+    .box{
+      font-size: 10px;
+      width: 70%;
+    }
+
+    .box button{
+      width: 20%;
+      font-size: 10px;
+    }
+     
+    .section1{
+      margin-top: 0;
+      flex-wrap: wrap;
+    }
+
+    .section1,
+    .section2,
+    .section3,
+    .section4,
+    .section5,
+    .section6,
+    .section7{
+        margin-top: 20px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    /* section 2 */
+    .atty2 img{
+      width: 95%;
+      height: 47vh;
+    }
+
+    .img4 h2 p button{
+      width: 90%;
+      position: relative;
+      left:0
+      
+    }
+
+   .section3 .img4{
+    display: none;
+   }
+    
+    .section3 .omo{
+      display: block;
+    }
+
+    .section4, .absol, .meme, .another{
+      /* width: 90%;
+      position: relative;
+      left:0 */
+      display: none;
+    }
+
+    .section5{
+      height: auto;
+    }
+
+    .section5 .omo2{
+      display: block;
+    }
+
+    .section5 button{
+      margin: 20px auto;
+      width: 100%;
+      height: 30vh;
+    }
+
+    .section6{
+      height: auto;
+    }
+
+    .section6 .both{
+      display: block;
+    }
+
+    .one{
+      width: 100%;
+      margin-top: 20px;
+    }
+
+     .over{
+      flex-wrap: wrap;
+    }
+  }
