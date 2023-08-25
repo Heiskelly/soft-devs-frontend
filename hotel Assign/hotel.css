@@ -444,6 +444,8 @@ footer {
   text-align: center;
 }
 
+
+
 /* Tablet and under */
 @media (max-width: 768px){
    body{
@@ -452,7 +454,7 @@ footer {
 }
 
   /* Mobile */
-  @media (max-width: 414px) {
+  @media (max-width: 444px) {
     /* section 1 */
     .section1{
       background-size: cover;
