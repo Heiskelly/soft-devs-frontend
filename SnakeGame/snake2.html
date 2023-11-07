@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style2.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="allopt">
+    <div class="options">
+        <button id='btnEasy' class="btn">EASY MODE</button>
+    </div>
+
+    <div class="options2">
+        <button id='btnHard' class="btn">HARD MODE</button>
+    </div>
+    </div>
+
+    <script>
+        // For Game Mode
+
+        // this determines the wether the game is easy or hard
+        // cus i'm using the border to determine of the game is hard or easy
+        
+        const btnEasy = document.getElementById('btnEasy');
+        const btnHard = document.getElementById('btnHard'); 
+        let mode;
+
+        btnHard.addEventListener('click', ()=>{
+            mode= true;
+            localStorage.setItem('mode', mode);
+            
+            // Redirect to another HTML page
+            window.location.href = './index.html';
+        });
+
+        btnEasy.addEventListener('click', ()=>{
+            mode = false;
+            localStorage.setItem('mode', mode);
+            // Redirect to another HTML page
+            window.location.href = './index.html';
+        });
+    </script>
+</body>
+</html>

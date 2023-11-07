@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div id="audios" style="display: none;">
+        <audio id="gamesound" src="./Sounds/Snake Game - Theme Song.mp3" autoplay loop></audio>
+        <audio id="eat" src="./Sounds/eat.mp3"></audio>
+        <audio id="fail" src="./Sounds/fail.mp3"></audio>
+    </div>
+    <div class="bg"></div>
+    <div class="content">
+        
+        <!-- <h1>Snake Game</h1> -->
+        <h2 >Score : <span id="score">0</span></h2>
+        <div>
+            <canvas id="myCanvas" width="1000" height="480" style="border: 4px solid green;"></canvas>
+            <article>
+                <section id="btn">
+                    <button id="upBtn">Move Up</button>
+                    <div class="sides">
+                        <button id="leftBtn">Move Left</button>
+                        <button id="rightBtn">Move Right</button>
+
+                    </div>  
+                    <button id="downBtn">Move Down</button>
+                </section>
+                <div class="direction">
+                    <h4>Direction using keybored</h4>
+                <!-- &nbsp; this is for space and this is a character Entity like copywrite -->
+                    <span>&uarr; "W" for Up &nbsp;</span> 
+                    <span>&darr;"S" for Down</span>
+                    <br>
+                    <span>&larr; "A" for Left &nbsp;</span>
+                    <span>&rarr; "D" for Right &nbsp;</span>
+                    
+                </div>
+            </article>
+            
+        </div>
+    </div>
+    
+    <aside>
+        <div class="bg"></div>
+        <section id="gameover">
+            <div>
+                <canvas id="myCanvasover" width="1000" height="520" ></canvas>
+            </div>
+            <a href="./snake2.html" class="btn"><button>Change Mode</button></a>
+            <button id="TryAgian">Try Again</button>
+            
+            <a href="./index_home.html" class="btn"><button>home</button></a>
+        </section>
+
+    </aside>    
+    <script src="./JS/script.js"></script>
+    <script src="./JS/gameoverscript.js"></script>
+</body>
+</html>

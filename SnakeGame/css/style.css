@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+.bg{
+    background-image: url(../image/IMG_4028.JPG);
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+.content {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+}
+.myCanvas{
+    /* background-color: white; */
+    background-image:url(../image/bg.jpg) ;
+
+}
+#btn{
+    display: grid;
+    grid-template-rows: 1fr;
+    width: 12rem;
+    justify-items: center;           
+    
+}
+.sides{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+button{
+    padding: 0.2rem;
+    border-radius: 0.4rem;
+    border-color: rgb(9, 209, 42);
+    /* border-color: black; */
+    font-weight: bolder;
+
+    color: white;
+    background-color: black;
+}
+article{
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.direction{
+    font-family: cursive;
+}
+h2{
+    font-family: monospace;
+    font-size: 30px;
+}
+
+
+
+/* Aside style for game over */
+aside{
+    display: grid;
+    place-items: center;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 99 ;
+    left: -100%;
+    /* transition: left 0.1s ease-in-out; */
+}
+#show{
+    left: 0;
+    /* transition: left 0.s ease-in; */
+}
+
+#gameover{
+    position: absolute;
+    top : 0;
+    z-index: 100;
+}
+
+#TryAgian{
+    margin: 0 20px;
+    margin-top: 20px;
+
+    padding: 15px;
+    border-radius: 10px;
+    color: #183a23;
+    background-color: transparent;
+    font-size: 20px;
+    transition: transform 0.09s ease-in;
+}
+
+#TryAgian:hover, a button:hover{
+    transform:translateY(-5px) ;
+    border: white solid;
+}
+a button{
+    background-color: transparent;
+    padding: 10px 20px;
+}

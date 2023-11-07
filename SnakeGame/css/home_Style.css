@@ -1,0 +1,33 @@
+*{  
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+    font-family:cursive
+}
+
+body{
+    background: url(../image/snake1.JPG);
+      background-size: cover;
+       background-repeat: no-repeat;
+}
+
+.header .btn{
+    margin-top: 40%;
+    background: none;
+    border: none;
+    padding: 20px 50px;
+    background: Linear-gradient(to top left, #d43105, orange);
+    margin-left: 45%;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: larger;
+}
+    
+.header .btn:hover{
+    background-color: aqua;
+    transition: 0.1s;
+    border: 3px solid white;
+   
+}
