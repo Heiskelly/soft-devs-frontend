@@ -1,0 +1,140 @@
+
+  /* Menu section starts */
+
+.menu .consent{
+    display: flex;
+    gap: 35px;
+    padding-top: 20px;
+ }
+
+.menu .consent h3{
+   font-size: 30px;
+}
+
+.menu .consent p{
+    font-size: 30px;
+    color: darkgrey;
+ }
+
+ .menu .big-container{
+   display: grid;
+   grid-template-columns:repeat(auto-fit, minmax(30rem, 1fr));
+   gap: 2.9rem;
+    /* display: grid;
+    grid-template-columns:1fr 1fr 1fr 3fr;
+    gap: 30px; */
+    /* align-items: center; */
+}
+
+.menu .big-container .big{
+    /* background-color: transparent; */
+    /* transform: translate(x); */
+    box-shadow:0  0 3px red;
+    width: 320px;
+    height: 480px;
+    margin-left: -25px;
+    margin-top: 20px;
+}
+
+ .menu .big-container .big .caty1{
+    background:linear-gradient(120deg, rgb(200, 94, 111), rgb(189, 20, 20) 100%);
+    padding: 8px;
+    width: 90px;
+    border-radius: 20px;
+    margin: 5px;
+    cursor: pointer;
+    position: absolute;
+    margin-top: -85px;
+    margin-left: 220px;
+    color: #fff;
+ }
+
+ .menu .big-container .big .caty2{
+    background:linear-gradient(120deg, rgb(200, 94, 111), rgb(189, 20, 20) 100%);
+    padding: 8px;
+    width: 90px;
+    border-radius: 20px;
+    margin: 5px;
+    cursor: pointer;
+    position: absolute;
+    margin-top: -125px;
+    margin-left: 220px;
+    color: #fff;
+ }
+
+ .menu .big-container .big img{
+    cursor: pointer;
+ }
+
+ .menu .big-container .big h3{
+    font-size: 20px;
+    padding-left: 10px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    cursor: pointer;
+ }
+
+ .menu .big-container .big h3:hover{
+    color: rgb(189, 20, 20) ;
+ }
+
+ .menu .big-container .big p{
+    font-size: 15px;
+    padding-left: 10px;
+    margin-bottom: 8px;
+    color: rgb(111, 108, 108);
+
+ }
+
+ .menu .big-container .big h4{
+    font-size: 14px;
+    padding-left: 10px;
+    margin-bottom: 28px;
+
+ }
+
+ .menu .big-container .big .stars{
+        color: orange;
+        padding-left: 13px;
+        
+ }
+
+ .menu .big-container .big .stars p{
+    color: darkgray;
+    padding-left: 2px;
+    margin-top: 5px;
+    
+}
+
+ .rate{
+    display: flex;
+    gap: 135px;
+ }
+
+ .menu .big-container .big .btn{
+    width: 300px;
+    margin-left: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+  /* Menu section ends */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

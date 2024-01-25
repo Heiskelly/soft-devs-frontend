@@ -1,0 +1,146 @@
+ /* Home starts */
+
+.hommie .component img{
+    margin-left: -80px;
+    margin-top: -20px;
+}
+
+.hommie .component .review h3{
+    font-size: 33px;
+    margin-top: 7px;
+    margin-bottom: 10px;
+}
+
+.hommie .component p{
+    font-size: 16px;
+    color: rgb(76, 70, 70);
+    margin-bottom: 20px;
+}
+
+.hommie .component .limited{
+    display: flex;
+    gap: 110px;
+}
+
+.hommie .component .stars{
+    color: orange;
+}
+
+.hommie .component .limited p{
+    font-size: 13px;
+}
+
+.hommie .component .price{
+    font-size: 13px;
+}
+
+.hommie .component .wrapper{
+    width: 144px;
+    padding: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:lightpink;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hommie .component .wrapper span{
+    width: 100%;
+    text-align: center;
+    font-size: large;
+    font-weight: 20;
+}
+
+.hommie .component .wrapper span.num{
+    font-size: 15px;
+    pointer-events: none;
+}
+
+.hommie .component .wrapper span.minus{
+    background-color: white;
+    border-radius: 10px;
+}
+
+.hommie .component .wrapper span.plus{
+    background-color: white;
+    border-radius: 10px;
+}
+
+.hommie .component hr{
+    margin: 3rem 0;
+    color: inherit;
+    border: 0;
+    border-top: 1px solid;
+    opacity: .35;
+    margin-left: -50px;
+}
+
+/* Home ends */
+
+/* menu starts */
+
+.menii .rpp h1{
+   font-size: 25px;  
+   margin-bottom: 20px;
+}
+
+
+.menii .muchmore .allrelate{
+    background-color: transparent;
+    transform: translate(x);
+    box-shadow:0 0 3px rgb(163, 162, 162);
+    width: 1000px;
+    padding-left: 15px;
+    padding-bottom: 80px;
+    margin-bottom: 30px;
+}
+
+.menii .muchmore .allrelate .Rproducts{
+   display: flex;
+   align-items: center;
+}
+
+.menii .muchmore .allrelate .Rproducts h4{
+    font-size: 18px;
+}
+
+.menii .muchmore .allrelate .Rproducts .but1{
+    background:linear-gradient(120deg, rgb(45, 43, 43), rgb(10, 10, 10) 100%);
+    padding: 6px;
+    width: 75px;
+    border-radius: 20px;
+    margin: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+.menii .muchmore .allrelate .Rproducts .but2{
+    background:linear-gradient(120deg, rgb(200, 94, 111), rgb(189, 20, 20) 100%);
+    padding: 6px;
+    width: 75px;
+    border-radius: 20px;
+    cursor: pointer;
+    color: white;
+}
+
+.menii .muchmore .allrelate p{
+    font-size: 15px;
+    color: grey;
+    margin-top: 10px;
+}
+
+.menii .muchmore .allrelate h1{
+    position: absolute;
+    margin-left: 774px;
+    margin-top: 30px;
+    font-size: 17px;
+}
+
+.menii .muchmore .allrelate img{    
+    position: absolute;
+    margin-left: 864px;
+    margin-top: -93px;
+    /* height: 100px; */
+}
+/* menu ends */
